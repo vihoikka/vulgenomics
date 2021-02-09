@@ -3,7 +3,7 @@ General tools for genome assembly etc.
 
 Refassembly
 -----------
-A simple snakemake pipeline:
+A simple snakemake pipeline for reference-based assembly of bacterial genomes:
   1. Trim reads (Trimmomatic)
   2. Create Bowtie reference
   3. Map to reference with bowtie2
