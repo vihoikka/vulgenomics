@@ -1,0 +1,10 @@
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bioconda::snakemake-minimal
+  - trimmomatic
+  - samtools
+  - bowtie2
+  - pilon
+  - busco=4.0.2
