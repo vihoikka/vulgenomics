@@ -10,3 +10,6 @@ A simple snakemake pipeline for reference-based assembly of bacterial genomes. C
   4. Sam -> Bam -> Sort Bam -> Index Bam (Samtools)
   5. Polish (Pilon)
   6. Genome metrics for before/after polishing (Busco)
+
+**Quick_custom_blaster**
+Blasts your queries against a given genome in NCBI
